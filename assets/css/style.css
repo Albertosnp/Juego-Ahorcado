@@ -1,0 +1,37 @@
+
+@font-face{
+    font-family: apple;
+    src: url(../fonts/SF-UI-Display-Regular.otf);
+}
+*{
+    box-sizing: border-box;
+    font-family: apple;
+}
+body,html{
+    margin: 0;
+    width: 100%;
+    background-color: gray;
+}
+.contenedor{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    margin: 30px auto 50px;
+    box-shadow: rgb(59, 61, 78) 3px 5px 5px;
+    overflow: hidden;
+}
+#resultado{
+    font-size: 1.5em;
+}
+#palabra{
+    font-size: 1.5em;
+}
+button, input{
+    padding: 5px;
+    margin: 10px;
+}
